@@ -1,0 +1,74 @@
+
+/* ให้อยู่ตรงกลาง */
+.c1 {
+    height: 100%;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+.c1-button {
+    margin: 10px;
+}
+h1 {
+    margin-top: 160px; /* ปรับค่าตามที่คุณต้องการ */
+    font-size: 60px;
+}
+/* ปรับรูปแบบปุ่ม */
+.cute-button {
+    background-color: #ecdd0c;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 10px 40px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s, transform 0.2s;
+    text-align: center; /* จัดให้ตัวหนังสืออยู่ตรงกลางในปุ่ม */
+    line-height: 25px; /* ปรับเส้นในการแสดงผลให้ตรงกลาง */
+
+    background-image: url('img/เปียก/ประกอบ2 (3) - Copy.jpg'); /* ลิงก์ไปยังรูปภาพพื้นหลัง */
+    background-size: cover
+}
+/* ปรับรูปแบบปุ่มเมื่อเมาส์ Hover */
+.cute-button:hover {
+    transform: scale(1.1);
+}
+
+
+
+/*video-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%; 
+    overflow: hidden;
+  }
+  .video-container video {
+    min-width: 100%; 
+    min-height: 100%; 
+  }
+  overlay {
+    position: absolute;
+    width: 100%;
+    background: rgba(0,0,0,0);
+  }
+
+
+
+   <div class="video-container">
+        <video autoplay="autoplay">
+          <source src="雨に濡れ透明になった サンカヨウ (旧バージョン)【Skeleton Flower】 (online-video-cutter.com).mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <div class="c2">
+        <p><header>
+        <b>Please select a topic!  </b>
+        </header></p>
+    </div>
+*/
